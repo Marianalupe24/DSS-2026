@@ -1,0 +1,53 @@
+.titulo {
+    text-align:center;
+    color:#1f3c88;
+    margin-bottom:30px;
+}
+
+.tabla-carreras {
+    width:85%;
+    margin:0 auto;
+    border-collapse:collapse;
+    font-family:Arial, Helvetica, sans-serif;
+    box-shadow:0 8px 20px rgba(0,0,0,0.2);
+}
+
+.tabla-carreras thead {
+    background:#1f3c88;
+    color:white;
+}
+
+.tabla-carreras th {
+    padding:15px;
+    text-transform:uppercase;
+    letter-spacing:1px;
+    font-size:14px;
+}
+
+.tabla-carreras td {
+    padding:18px;
+    text-align:center;
+    background:#f4f4f4;
+    border-bottom:1px solid #ddd;
+    color:#333;
+}
+
+.tabla-carreras tr:nth-child(even) td {
+    background:#e0e0e0;
+}
+
+
+
+.nombre-carrera {
+    color:#1f3c88;
+    font-weight:bold;
+}
+
+.duracion {
+    color:#ffb703;
+    font-weight:bold;
+}
+
+.modalidad {
+    color:#555;
+}
